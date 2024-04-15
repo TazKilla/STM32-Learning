@@ -1,0 +1,16 @@
+/*
+ * gpio_port.h
+ *
+ *  Created on: Apr 8, 2024
+ *      Author: gurc
+ */
+
+#ifndef GPIO_PORT_H_
+#define GPIO_PORT_H_
+
+extern const void * GPIOPort;
+
+void * setPin(void * gpio_port, const int pin);
+void * clearPin(void * gpio_port, const int pin);
+
+#endif /* GPIO_PORT_H_ */

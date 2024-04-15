@@ -1,0 +1,10 @@
+11:27:04 **** Incremental Build of configuration Debug for project led_on_bitwise ****
+make -j8 all 
+arm-none-eabi-size  led_on_bitwise.elf 
+   text	   data	    bss	    dec	    hex	filename
+    692	     44	   1564	   2300	    8fc	led_on_bitwise.elf
+Finished building: default.size.stdout
+ 
+
+11:27:05 Build Finished. 0 errors, 0 warnings. (took 881ms)
+

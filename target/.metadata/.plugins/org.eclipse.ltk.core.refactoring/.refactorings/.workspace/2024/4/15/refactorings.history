@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;STM32F30xx/include/new.h&apos;" deleteContents="false" description="Delete resource &apos;STM32F30xx/include/new.h&apos;" element1="/STM32F30xx/include/new.h" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1712588182553"/>&#x0A;<refactoring comment="Delete resource &apos;005led_toggle/Inc/libSTM32F30xx.a&apos;" deleteContents="false" description="Delete resource &apos;005led_toggle/Inc/libSTM32F30xx.a&apos;" element1="/005led_toggle/Inc/libSTM32F30xx.a" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1712846863726"/>
+</session>

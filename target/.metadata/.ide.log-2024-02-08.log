@@ -1,0 +1,14 @@
+2024-02-09 10:37:58,283 [INFO] MainUpdater:2873 - connection check result : 10
+2024-02-09 10:37:58,434 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2024-02-09 10:37:58,436 [INFO] MultiScanPanel:200 - Auto-refresh data requested => check proxy status ongoing
+2024-02-09 10:37:58,437 [INFO] FinderPluginLoader:95 - Searching for filters in installed packs
+2024-02-09 10:37:59,045 [INFO] LoadUrlFilesThread:185 - End of LoadServerUrlFiles without Thread
+2024-02-09 10:37:59,046 [INFO] DetailPanel:341 - Set advertising image to C:/Users/gurc/STM32Cube/Repository/\en.prom-stm32wl3-mcu-finder.jpg
+2024-02-09 10:38:08,683 [INFO] MultiScanPanel:200 - Auto-refresh data requested => check proxy status ongoing
+2024-02-09 10:38:08,741 [INFO] LoadUrlFilesThread:185 - End of LoadServerUrlFiles without Thread
+2024-02-09 10:38:08,741 [INFO] DetailPanel:341 - Set advertising image to C:/Users/gurc/STM32Cube/Repository/\en.prom-stm32wl3-mcu-finder.jpg
+2024-02-09 10:38:22,027 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2024-02-09 10:38:22,029 [INFO] ApiDb:448 - Save user favorites file C:\Users\gurc/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2024-02-09 10:38:22,029 [INFO] ApiDb:452 - User favorites MCUs=[]
+2024-02-09 10:38:22,030 [INFO] ApiDb:448 - Save user favorites file C:\Users\gurc/.stm32cubeide/favorites.boards.txt: 1 item(s)
+2024-02-09 10:38:22,030 [INFO] ApiDb:452 - User favorites Boards=[NUCLEO-F302R8]

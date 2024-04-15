@@ -1,0 +1,13 @@
+/*
+ * gpio_port.h
+ *
+ *  Created on: Apr 8, 2024
+ *      Author: gurc
+ */
+
+#ifndef GPIO_PORT_H_
+#define GPIO_PORT_H_
+
+
+
+#endif /* GPIO_PORT_H_ */

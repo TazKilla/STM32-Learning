@@ -1,0 +1,14 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:floatPrice.exe,org.eclipse.launchbar.core.descriptorType.default\:scanfExercise.exe,org.eclipse.launchbar.core.descriptorType.default\:ASCII.exe,org.eclipse.launchbar.core.descriptorType.default\:floatCharge.exe,org.eclipse.launchbar.core.descriptorType.default\:pointers.exe,org.eclipse.launchbar.core.descriptorType.default\:pointer_1.exe,org.eclipse.launchbar.core.descriptorType.default\:pointer_2.exe,org.eclipse.launchbar.core.descriptorType.default\:if_statement Debug
+eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ScanfExercise\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:if_statement\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:if_statement\ Debug/activeLaunchTarget=null\:---
+org.eclipse.launchbar.core.descriptorType.default\:ASCII.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:ASCII.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:floatPrice.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:floatPrice.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:if_statement\ Debug/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:pointer_2.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

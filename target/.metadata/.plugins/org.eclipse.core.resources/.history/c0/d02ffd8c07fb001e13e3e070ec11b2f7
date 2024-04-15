@@ -1,0 +1,13 @@
+/*
+ * led_mgr.h
+ *
+ *  Created on: Apr 12, 2024
+ *      Author: gurc
+ */
+
+#ifndef LED_MGR_H_
+#define LED_MGR_H_
+
+//LEDPIN =
+
+#endif /* LED_MGR_H_ */

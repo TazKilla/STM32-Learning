@@ -1,0 +1,7 @@
+2024-02-16 08:38:36,539 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2024-02-16 08:38:45,524 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 10701mS.
+2024-02-16 08:38:45,525 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 1mS.
+2024-02-16 08:38:45,527 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2024-02-16 08:38:46,139 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2024-02-16 08:38:46,141 [INFO] ApiDb:448 - Save user favorites file C:\Users\gurc/.stm32cubeide/favorites.mcus.txt: 1 item(s)
+2024-02-16 08:38:46,141 [INFO] ApiDb:452 - User favorites MCUs=[STM32F302R8T6]

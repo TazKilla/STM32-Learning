@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;STM32F30xx/gpio_ports.h&apos; to &apos;gpio_ports.c&apos;" description="Rename resource &apos;gpio_ports.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="gpio_ports.h" name="gpio_ports.c" stamp="1712584940123" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;STM32F30xx/include/gpio_port.h&apos; to &apos;gpio_ports.h&apos;" description="Rename resource &apos;gpio_port.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="include/gpio_port.h" name="gpio_ports.h" stamp="1712587668257" updateReferences="true"/>
+</session>

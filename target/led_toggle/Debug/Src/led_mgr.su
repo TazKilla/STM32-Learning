@@ -1,0 +1,2 @@
+../Src/led_mgr.c:22:6:dim_led	96	static
+../Src/led_mgr.c:56:6:pulse_led	48	static

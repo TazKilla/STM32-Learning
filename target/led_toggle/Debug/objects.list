@@ -1,0 +1,6 @@
+"./Src/gpio_ports.o"
+"./Src/led_mgr.o"
+"./Src/main.o"
+"./Src/syscalls.o"
+"./Src/sysmem.o"
+"./Startup/startup_stm32f302r8tx.o"

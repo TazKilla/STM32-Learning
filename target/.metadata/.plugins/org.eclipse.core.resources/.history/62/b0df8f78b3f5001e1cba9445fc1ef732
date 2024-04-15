@@ -1,0 +1,70 @@
+/*
+ * gpio_ports.c
+ *
+ *  Created on: Mar 28, 2024
+ *      Author: gurc
+ */
+
+#include <stdint.h>
+#include <assert.h>
+
+#include <gpio_port.h>
+
+const void * PGIOPort;
+
+#if ! defined MANY || MANY < 1
+#define MANY	10
+#endif
+
+static int heap	[MANY];
+
+void * new(const void * type, ...)
+{
+	int * p;
+
+	for(p = heap + 1; p < heap + MANY; ++p) {
+		if(! * p)
+			break;
+	}
+	assert(p < heap + MANY);
+	* p = MANY;
+	return p;
+}
+
+/* Structure meant to drive GPIO ports */
+typedef struct GPIOPort {
+
+	char portIndex;
+
+	uint32_t *pRCCReg;
+
+	uint32_t *pPortModeReg;
+	uint32_t *pPortOutTypeReg;
+	uint32_t *pPortOutSpeedReg;
+	uint32_t *pPortPUpPDoReg;
+	uint32_t *pPortInDataReg;
+	uint32_t *pPortOutDataReg;
+	uint32_t *pPortBitSetResReg;
+
+} GPIOPort;
+
+struct GPIOPort GPIOPortB = {
+		.portIndex = 'B',
+		.pRCCReg = (uint32_t*)0x40021014,
+		.pPortModeReg = (uint32_t*)0x48000400,
+		.pPortOutDataReg = (uint32_t*)0x48000414
+};
+
+int activatePort();
+
+int setPin(GPIOPort * port, int pin)
+{
+	*port->pPortOutDataReg |= 1 << pin;
+	return 0;
+}
+
+int clearPin(GPIOPort * port, int pin)
+{
+	*port->pPortOutDataReg &= ~(1 << pin);
+	return 0;
+}

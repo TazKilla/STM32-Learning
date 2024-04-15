@@ -1,0 +1,6 @@
+11:26:29 **** Incremental Build of configuration Debug for project clearing_of_bits ****
+Info: Internal Builder is used for build
+gcc -o clearing_of_bits.exe main.o 
+
+11:26:31 Build Finished. 0 errors, 0 warnings. (took 1s.694ms)
+

@@ -1,0 +1,7 @@
+15:54:07 **** Incremental Build of configuration Debug for project scanfExercise ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o scanfExercise.exe main.o 
+
+15:54:09 Build Finished. 0 errors, 0 warnings. (took 1s.896ms)
+

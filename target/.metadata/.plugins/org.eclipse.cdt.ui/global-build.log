@@ -1,0 +1,44 @@
+11:59:52 **** Incremental Build of configuration Debug for project STM32F30xx ****
+make all 
+make: Nothing to be done for 'all'.
+11:59:53 **** Incremental Build of configuration Debug for project 005led_toggle ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F302R8Tx -DSTM32F3 -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "005led_toggle.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\embedded_c\workspace\target\led_toggle\STM32F302R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005led_toggle.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005led_toggle.elf
+ 
+arm-none-eabi-size  005led_toggle.elf 
+arm-none-eabi-objdump -h -S 005led_toggle.elf  > "005led_toggle.list"
+   text	   data	    bss	    dec	    hex	filename
+   5592	    136	   1904	   7632	   1dd0	005led_toggle.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005led_toggle.list
+ 
+12:00:05 **** Incremental Build of configuration Debug for project STM32F30xx ****
+make all 
+make: Nothing to be done for 'all'.
+12:00:05 **** Incremental Build of configuration Debug for project 005led_toggle ****
+make -j8 all 
+arm-none-eabi-size  005led_toggle.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5592	    136	   1904	   7632	   1dd0	005led_toggle.elf
+Finished building: default.size.stdout
+ 
+12:01:03 **** Incremental Build of configuration Debug for project STM32F30xx ****
+make all 
+make: Nothing to be done for 'all'.
+12:01:04 **** Incremental Build of configuration Debug for project 005led_toggle ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/led_mgr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F302R8Tx -DSTM32F3 -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/led_mgr.d" -MT"Src/led_mgr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/led_mgr.o"
+arm-none-eabi-gcc -o "005led_toggle.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\embedded_c\workspace\target\led_toggle\STM32F302R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005led_toggle.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005led_toggle.elf
+ 
+arm-none-eabi-size  005led_toggle.elf 
+arm-none-eabi-objdump -h -S 005led_toggle.elf  > "005led_toggle.list"
+   text	   data	    bss	    dec	    hex	filename
+   5592	    136	   1904	   7632	   1dd0	005led_toggle.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005led_toggle.list
+ 

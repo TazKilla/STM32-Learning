@@ -1,0 +1,17 @@
+/*
+ * gpio_port.h
+ *
+ *  Created on: Apr 8, 2024
+ *      Author: gurc
+ */
+
+#ifndef GPIO_PORT_H_
+#define GPIO_PORT_H_
+
+extern const struct GPIOPort{};
+
+int activatePort();
+int setPin(GPIOPort * port, int pin);
+int clearPin(GPIOPort * port, int pin);
+
+#endif /* GPIO_PORT_H_ */

@@ -1,0 +1,29 @@
+/*
+ * gpio_ports.c
+ *
+ *  Created on: Mar 28, 2024
+ *      Author: gurc
+ */
+
+#include <stdint.h>
+#include <assert.h>
+
+#include "../include/gpio_ports.h"
+
+extern int activatePort(GPIOPort * port)
+{
+	*port->pRCCReg |= 1 << 18;
+	return 0;
+}
+
+extern int setPin(GPIOPort * port, int pin)
+{
+	*port->pPortOutDataReg |= 1 << pin;
+	return 0;
+}
+
+extern int clearPin(GPIOPort * port, int pin)
+{
+	*port->pPortOutDataReg &= ~(1 << pin);
+	return 0;
+}

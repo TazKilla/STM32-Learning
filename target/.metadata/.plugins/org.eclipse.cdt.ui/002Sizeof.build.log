@@ -1,0 +1,19 @@
+10:36:38 **** Build of configuration Debug for project 002Sizeof ****
+make -j8 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f302r8tx.d" -MT"Startup/startup_stm32f302r8tx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Startup/startup_stm32f302r8tx.o" "../Startup/startup_stm32f302r8tx.s"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F302R8Tx -DSTM32F3 -DNUCLEO_F302R8 -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -save-temps -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F302R8Tx -DSTM32F3 -DNUCLEO_F302R8 -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -save-temps -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc -o "002Sizeof.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\embedded_c\workspace\target\002Sizeof\STM32F302R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="002Sizeof.map" -Wl,--gc-sections -static -specs=rdimon.specs -lc -lrdimon --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 002Sizeof.elf
+ 
+arm-none-eabi-size  002Sizeof.elf 
+arm-none-eabi-objdump -h -S 002Sizeof.elf  > "002Sizeof.list"
+   text	   data	    bss	    dec	    hex	filename
+   6428	    108	   2076	   8612	   21a4	002Sizeof.elf
+Finished building: default.size.stdout
+ 
+Finished building: 002Sizeof.list
+ 
+
+10:36:41 Build Finished. 0 errors, 0 warnings. (took 2s.715ms)
+

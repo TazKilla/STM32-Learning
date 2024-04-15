@@ -1,0 +1,4 @@
+../Src/gpio_ports.c:37:5:activatePort	16	static
+../Src/gpio_ports.c:46:5:selectPinFunction	24	static
+../Src/gpio_ports.c:59:5:setPin	16	static
+../Src/gpio_ports.c:70:5:clearPin	16	static
